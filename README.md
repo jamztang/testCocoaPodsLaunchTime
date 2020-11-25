@@ -1,6 +1,10 @@
 Testing App Launch Time with or without CocoaPods
 ---
 
+To test pre-main launch time, use the `DYLD_PRINT_STATISTICS` environment variable.
+
+![](/images/xcode.png)
+
 tldr; Basically there's no affect on launch time when using CocoaPods or intergrate manually using Frameworks
 
 Gotcha: AppCenter 4.0.0 don't work on Mac Catalyst, .podspec was not specifying .xcframework
