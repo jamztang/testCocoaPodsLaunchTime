@@ -10,6 +10,9 @@ import UIKit
 #if canImport(PSPDFKit)
 import PSPDFKit
 #endif
+#if canImport(PSPDFKitUI)
+import PSPDFKitUI
+#endif
 #if canImport(AppCenter)
 import AppCenter
 #endif
@@ -24,6 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var frameworks: [String] = []
         #if canImport(PSPDFKit)
         frameworks.append("PSPDFKit")
+        #endif
+
+        #if canImport(PSPDFKitUI)
+        frameworks.append("PSPDFKitUI")
         #endif
 
         #if canImport(AppCenter)
