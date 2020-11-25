@@ -1,10 +1,9 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'testCocoaPodsLaunchTime' do
+target 'testCocoaPodsLaunchTime_viaCocoaPods' do
   # Comment the next line if you don't want to use dynamic frameworks
-  #use_frameworks!
-  use_modular_headers!
+  use_frameworks!
 
   # Pods for testCocoaPodsLaunchTime
   pod 'AppCenter'
@@ -21,6 +20,13 @@ target 'testCocoaPodsLaunchTime' do
 
 end
 
+target 'testCocoaPodsLaunchTime_viaFramework' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for testCocoaPodsLaunchTime_noPods
+
+end
 target 'testCocoaPodsLaunchTime_noPods' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!

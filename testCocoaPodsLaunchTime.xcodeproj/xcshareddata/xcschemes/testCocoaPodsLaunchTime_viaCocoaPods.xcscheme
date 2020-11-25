@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1A220C1E256DF35900594852"
-               BuildableName = "testCocoaPodsLaunchTime.app"
-               BlueprintName = "testCocoaPodsLaunchTime"
+               BuildableName = "testCocoaPodsLaunchTime_viaCocoaPods.app"
+               BlueprintName = "testCocoaPodsLaunchTime_viaCocoaPods"
                ReferencedContainer = "container:testCocoaPodsLaunchTime.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -65,8 +65,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1A220C1E256DF35900594852"
-            BuildableName = "testCocoaPodsLaunchTime.app"
-            BlueprintName = "testCocoaPodsLaunchTime"
+            BuildableName = "testCocoaPodsLaunchTime_viaCocoaPods.app"
+            BlueprintName = "testCocoaPodsLaunchTime_viaCocoaPods"
             ReferencedContainer = "container:testCocoaPodsLaunchTime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -89,8 +89,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1A220C1E256DF35900594852"
-            BuildableName = "testCocoaPodsLaunchTime.app"
-            BlueprintName = "testCocoaPodsLaunchTime"
+            BuildableName = "testCocoaPodsLaunchTime_viaCocoaPods.app"
+            BlueprintName = "testCocoaPodsLaunchTime_viaCocoaPods"
             ReferencedContainer = "container:testCocoaPodsLaunchTime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

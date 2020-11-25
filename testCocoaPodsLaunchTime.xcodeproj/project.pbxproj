@@ -24,7 +24,6 @@
 		1A88CC47256E0A7800B80C8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A220C26256DF35900594852 /* ViewController.swift */; };
 		1A88CC48256E0A7800B80C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A220C22256DF35900594852 /* AppDelegate.swift */; };
 		1A88CC49256E0A7800B80C8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A220C24256DF35900594852 /* SceneDelegate.swift */; };
-		1A88CC4B256E0A7800B80C8C /* Pods_testCocoaPodsLaunchTime_noPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140610ECE4BA4C567744B4EB /* Pods_testCocoaPodsLaunchTime_noPods.framework */; };
 		1A88CC4D256E0A7800B80C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A220C2D256DF35900594852 /* LaunchScreen.storyboard */; };
 		1A88CC4E256E0A7800B80C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A220C2B256DF35900594852 /* Assets.xcassets */; };
 		1A88CC4F256E0A7800B80C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A220C28256DF35900594852 /* Main.storyboard */; };
@@ -32,10 +31,11 @@
 		1A88CC71256E0B2200B80C8C /* AppCenter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88CC6E256E0B2000B80C8C /* AppCenter.xcframework */; };
 		1A88CC72256E0B2200B80C8C /* AppCenterAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88CC6F256E0B2000B80C8C /* AppCenterAnalytics.xcframework */; };
 		1A88CC73256E0B2200B80C8C /* AppCenterCrashes.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88CC70256E0B2200B80C8C /* AppCenterCrashes.xcframework */; };
-		2D1ABC43A80EE1586BB5933F /* libPods-testCocoaPodsLaunchTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4832AD0BE92CE60476D3D1 /* libPods-testCocoaPodsLaunchTime.a */; };
-		598FE8B7B161155DAA6F25EF /* libPods-testCocoaPodsLaunchTimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F74B93475F5D862FF42ACD1 /* libPods-testCocoaPodsLaunchTimeTests.a */; };
 		6BF067AB6193649DDDE427DE /* Pods_testCocoaPodsLaunchTime_noPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140610ECE4BA4C567744B4EB /* Pods_testCocoaPodsLaunchTime_noPods.framework */; };
-		DECF049FB69647B2C2A9BFC2 /* libPods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A43090E9C82C41B4430AB0 /* libPods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.a */; };
+		7045E069EAC17E7ACBABCEE8 /* Pods_testCocoaPodsLaunchTime_viaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C05EDDB913DFF10443448ED /* Pods_testCocoaPodsLaunchTime_viaFramework.framework */; };
+		BF18673EEB1AA870B0C11CA2 /* Pods_testCocoaPodsLaunchTime_viaCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D110C49BFA3C59619C3E2B7 /* Pods_testCocoaPodsLaunchTime_viaCocoaPods.framework */; };
+		F3C642722398E4FB773828C2 /* Pods_testCocoaPodsLaunchTime_viaCocoaPods_testCocoaPodsLaunchTimeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FFCBF90FD0FCD0F38B72A7 /* Pods_testCocoaPodsLaunchTime_viaCocoaPods_testCocoaPodsLaunchTimeUITests.framework */; };
+		FC5EE6CB20BF6C612966AF9E /* Pods_testCocoaPodsLaunchTimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3056CE73D81BCAC74C8BEAD /* Pods_testCocoaPodsLaunchTimeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		140610ECE4BA4C567744B4EB /* Pods_testCocoaPodsLaunchTime_noPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCocoaPodsLaunchTime_noPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A220C1F256DF35900594852 /* testCocoaPodsLaunchTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCocoaPodsLaunchTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		004EC772AB9C7A80E5C125DC /* Pods-testCocoaPodsLaunchTime_viaCocoaPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime_viaCocoaPods.debug.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime_viaCocoaPods/Pods-testCocoaPodsLaunchTime_viaCocoaPods.debug.xcconfig"; sourceTree = "<group>"; };
+		1A220C1F256DF35900594852 /* testCocoaPodsLaunchTime_viaCocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCocoaPodsLaunchTime_viaCocoaPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A220C22256DF35900594852 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A220C24256DF35900594852 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1A220C26256DF35900594852 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,15 +80,21 @@
 		1A88CC6F256E0B2000B80C8C /* AppCenterAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppCenterAnalytics.xcframework; sourceTree = "<group>"; };
 		1A88CC70256E0B2200B80C8C /* AppCenterCrashes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppCenterCrashes.xcframework; sourceTree = "<group>"; };
 		444D6ACFD10BDED2FF6E3D43 /* Pods-testCocoaPodsLaunchTime_noPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime_noPods.release.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime_noPods/Pods-testCocoaPodsLaunchTime_noPods.release.xcconfig"; sourceTree = "<group>"; };
-		53A43090E9C82C41B4430AB0 /* libPods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F74B93475F5D862FF42ACD1 /* libPods-testCocoaPodsLaunchTimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testCocoaPodsLaunchTimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C05EDDB913DFF10443448ED /* Pods_testCocoaPodsLaunchTime_viaFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCocoaPodsLaunchTime_viaFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AA30461AF438E24E48DF8B /* Pods-testCocoaPodsLaunchTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime.debug.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime/Pods-testCocoaPodsLaunchTime.debug.xcconfig"; sourceTree = "<group>"; };
+		6D110C49BFA3C59619C3E2B7 /* Pods_testCocoaPodsLaunchTime_viaCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCocoaPodsLaunchTime_viaCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7187D6C3E2A3E415FBE5186C /* Pods-testCocoaPodsLaunchTime_viaFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime_viaFramework.debug.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime_viaFramework/Pods-testCocoaPodsLaunchTime_viaFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		73D21CA5D0368AD8CC26A7AC /* Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests.release.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests/Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		897740C28D1E3A093D3CD207 /* Pods-testCocoaPodsLaunchTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTimeTests.release.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTimeTests/Pods-testCocoaPodsLaunchTimeTests.release.xcconfig"; sourceTree = "<group>"; };
-		8C4832AD0BE92CE60476D3D1 /* libPods-testCocoaPodsLaunchTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testCocoaPodsLaunchTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99FFCBF90FD0FCD0F38B72A7 /* Pods_testCocoaPodsLaunchTime_viaCocoaPods_testCocoaPodsLaunchTimeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCocoaPodsLaunchTime_viaCocoaPods_testCocoaPodsLaunchTimeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3056CE73D81BCAC74C8BEAD /* Pods_testCocoaPodsLaunchTimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCocoaPodsLaunchTimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5812DAFC7E292E655C1FB2C /* Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.release.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests/Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A5FAEB1B15849C0BDEDFFA96 /* Pods-testCocoaPodsLaunchTime_noPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime_noPods.debug.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime_noPods/Pods-testCocoaPodsLaunchTime_noPods.debug.xcconfig"; sourceTree = "<group>"; };
+		BA347286BFFFA54AD5FD9C43 /* Pods-testCocoaPodsLaunchTime_viaFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime_viaFramework.release.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime_viaFramework/Pods-testCocoaPodsLaunchTime_viaFramework.release.xcconfig"; sourceTree = "<group>"; };
 		BF0916CD0BDFE7A8DF6D9E8C /* Pods-testCocoaPodsLaunchTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTimeTests.debug.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTimeTests/Pods-testCocoaPodsLaunchTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA651E744051DCA09ECD05B0 /* Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests.debug.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests/Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D479830F5668F601200FEEB2 /* Pods-testCocoaPodsLaunchTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime.release.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime/Pods-testCocoaPodsLaunchTime.release.xcconfig"; sourceTree = "<group>"; };
+		E99D96DB5A24DB5DB1D14328 /* Pods-testCocoaPodsLaunchTime_viaCocoaPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime_viaCocoaPods.release.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime_viaCocoaPods/Pods-testCocoaPodsLaunchTime_viaCocoaPods.release.xcconfig"; sourceTree = "<group>"; };
 		EB55FAC2D84D2EF941B77C36 /* Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.debug.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests/Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D1ABC43A80EE1586BB5933F /* libPods-testCocoaPodsLaunchTime.a in Frameworks */,
+				BF18673EEB1AA870B0C11CA2 /* Pods_testCocoaPodsLaunchTime_viaCocoaPods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				598FE8B7B161155DAA6F25EF /* libPods-testCocoaPodsLaunchTimeTests.a in Frameworks */,
+				FC5EE6CB20BF6C612966AF9E /* Pods_testCocoaPodsLaunchTimeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DECF049FB69647B2C2A9BFC2 /* libPods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.a in Frameworks */,
+				F3C642722398E4FB773828C2 /* Pods_testCocoaPodsLaunchTime_viaCocoaPods_testCocoaPodsLaunchTimeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,9 +137,9 @@
 			files = (
 				1A88CC68256E0B1F00B80C8C /* PSPDFKit.xcframework in Frameworks */,
 				1A88CC71256E0B2200B80C8C /* AppCenter.xcframework in Frameworks */,
-				1A88CC4B256E0A7800B80C8C /* Pods_testCocoaPodsLaunchTime_noPods.framework in Frameworks */,
 				1A88CC72256E0B2200B80C8C /* AppCenterAnalytics.xcframework in Frameworks */,
 				1A88CC73256E0B2200B80C8C /* AppCenterCrashes.xcframework in Frameworks */,
+				7045E069EAC17E7ACBABCEE8 /* Pods_testCocoaPodsLaunchTime_viaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +164,7 @@
 		1A220C20256DF35900594852 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A220C1F256DF35900594852 /* testCocoaPodsLaunchTime.app */,
+				1A220C1F256DF35900594852 /* testCocoaPodsLaunchTime_viaCocoaPods.app */,
 				1A220C35256DF35A00594852 /* testCocoaPodsLaunchTimeTests.xctest */,
 				1A220C40256DF35A00594852 /* testCocoaPodsLaunchTimeUITests.xctest */,
 				1A220C62256DF35D00594852 /* testCocoaPodsLaunchTime_noPods.app */,
@@ -238,6 +244,12 @@
 				897740C28D1E3A093D3CD207 /* Pods-testCocoaPodsLaunchTimeTests.release.xcconfig */,
 				A5FAEB1B15849C0BDEDFFA96 /* Pods-testCocoaPodsLaunchTime_noPods.debug.xcconfig */,
 				444D6ACFD10BDED2FF6E3D43 /* Pods-testCocoaPodsLaunchTime_noPods.release.xcconfig */,
+				004EC772AB9C7A80E5C125DC /* Pods-testCocoaPodsLaunchTime_viaCocoaPods.debug.xcconfig */,
+				E99D96DB5A24DB5DB1D14328 /* Pods-testCocoaPodsLaunchTime_viaCocoaPods.release.xcconfig */,
+				CA651E744051DCA09ECD05B0 /* Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests.debug.xcconfig */,
+				73D21CA5D0368AD8CC26A7AC /* Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests.release.xcconfig */,
+				7187D6C3E2A3E415FBE5186C /* Pods-testCocoaPodsLaunchTime_viaFramework.debug.xcconfig */,
+				BA347286BFFFA54AD5FD9C43 /* Pods-testCocoaPodsLaunchTime_viaFramework.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -245,10 +257,10 @@
 		C9ADCED18C3DEFCCDF0F6769 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				140610ECE4BA4C567744B4EB /* Pods_testCocoaPodsLaunchTime_noPods.framework */,
-				8C4832AD0BE92CE60476D3D1 /* libPods-testCocoaPodsLaunchTime.a */,
-				53A43090E9C82C41B4430AB0 /* libPods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.a */,
-				5F74B93475F5D862FF42ACD1 /* libPods-testCocoaPodsLaunchTimeTests.a */,
+				A3056CE73D81BCAC74C8BEAD /* Pods_testCocoaPodsLaunchTimeTests.framework */,
+				6D110C49BFA3C59619C3E2B7 /* Pods_testCocoaPodsLaunchTime_viaCocoaPods.framework */,
+				99FFCBF90FD0FCD0F38B72A7 /* Pods_testCocoaPodsLaunchTime_viaCocoaPods_testCocoaPodsLaunchTimeUITests.framework */,
+				5C05EDDB913DFF10443448ED /* Pods_testCocoaPodsLaunchTime_viaFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -256,9 +268,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A220C1E256DF35900594852 /* testCocoaPodsLaunchTime */ = {
+		1A220C1E256DF35900594852 /* testCocoaPodsLaunchTime_viaCocoaPods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A220C49256DF35A00594852 /* Build configuration list for PBXNativeTarget "testCocoaPodsLaunchTime" */;
+			buildConfigurationList = 1A220C49256DF35A00594852 /* Build configuration list for PBXNativeTarget "testCocoaPodsLaunchTime_viaCocoaPods" */;
 			buildPhases = (
 				807F55D7F25BCC0B9E5123C4 /* [CP] Check Pods Manifest.lock */,
 				1A220C1B256DF35900594852 /* Sources */,
@@ -270,9 +282,9 @@
 			);
 			dependencies = (
 			);
-			name = testCocoaPodsLaunchTime;
+			name = testCocoaPodsLaunchTime_viaCocoaPods;
 			productName = testCocoaPodsLaunchTime;
-			productReference = 1A220C1F256DF35900594852 /* testCocoaPodsLaunchTime.app */;
+			productReference = 1A220C1F256DF35900594852 /* testCocoaPodsLaunchTime_viaCocoaPods.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1A220C34256DF35A00594852 /* testCocoaPodsLaunchTimeTests */ = {
@@ -385,8 +397,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A220C1E256DF35900594852 /* testCocoaPodsLaunchTime */,
 				1A220C55256DF35D00594852 /* testCocoaPodsLaunchTime_noPods */,
+				1A220C1E256DF35900594852 /* testCocoaPodsLaunchTime_viaCocoaPods */,
 				1A88CC44256E0A7800B80C8C /* testCocoaPodsLaunchTime_viaFramework */,
 				1A220C34256DF35A00594852 /* testCocoaPodsLaunchTimeTests */,
 				1A220C3F256DF35A00594852 /* testCocoaPodsLaunchTimeUITests */,
@@ -457,7 +469,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testCocoaPodsLaunchTime_noPods-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-testCocoaPodsLaunchTime_viaFramework-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -479,7 +491,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testCocoaPodsLaunchTime-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-testCocoaPodsLaunchTime_viaCocoaPods-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -492,15 +504,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests/Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests/Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests/Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests/Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests/Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests/Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8B6A622F89064187CB56A891 /* [CP] Check Pods Manifest.lock */ = {
@@ -540,7 +552,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -553,15 +565,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testCocoaPodsLaunchTime/Pods-testCocoaPodsLaunchTime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-testCocoaPodsLaunchTime_viaCocoaPods/Pods-testCocoaPodsLaunchTime_viaCocoaPods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-testCocoaPodsLaunchTime/Pods-testCocoaPodsLaunchTime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-testCocoaPodsLaunchTime_viaCocoaPods/Pods-testCocoaPodsLaunchTime_viaCocoaPods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testCocoaPodsLaunchTime/Pods-testCocoaPodsLaunchTime-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testCocoaPodsLaunchTime_viaCocoaPods/Pods-testCocoaPodsLaunchTime_viaCocoaPods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F96EB0837F3957F29D262A83 /* [CP] Check Pods Manifest.lock */ = {
@@ -640,12 +652,12 @@
 /* Begin PBXTargetDependency section */
 		1A220C37256DF35A00594852 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A220C1E256DF35900594852 /* testCocoaPodsLaunchTime */;
+			target = 1A220C1E256DF35900594852 /* testCocoaPodsLaunchTime_viaCocoaPods */;
 			targetProxy = 1A220C36256DF35A00594852 /* PBXContainerItemProxy */;
 		};
 		1A220C42256DF35A00594852 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1A220C1E256DF35900594852 /* testCocoaPodsLaunchTime */;
+			target = 1A220C1E256DF35900594852 /* testCocoaPodsLaunchTime_viaCocoaPods */;
 			targetProxy = 1A220C41256DF35A00594852 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -788,7 +800,7 @@
 		};
 		1A220C4A256DF35A00594852 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63AA30461AF438E24E48DF8B /* Pods-testCocoaPodsLaunchTime.debug.xcconfig */;
+			baseConfigurationReference = 004EC772AB9C7A80E5C125DC /* Pods-testCocoaPodsLaunchTime_viaCocoaPods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -808,7 +820,7 @@
 		};
 		1A220C4B256DF35A00594852 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D479830F5668F601200FEEB2 /* Pods-testCocoaPodsLaunchTime.release.xcconfig */;
+			baseConfigurationReference = E99D96DB5A24DB5DB1D14328 /* Pods-testCocoaPodsLaunchTime_viaCocoaPods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -874,7 +886,7 @@
 		};
 		1A220C50256DF35A00594852 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB55FAC2D84D2EF941B77C36 /* Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.debug.xcconfig */;
+			baseConfigurationReference = CA651E744051DCA09ECD05B0 /* Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -895,7 +907,7 @@
 		};
 		1A220C51256DF35A00594852 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5812DAFC7E292E655C1FB2C /* Pods-testCocoaPodsLaunchTime-testCocoaPodsLaunchTimeUITests.release.xcconfig */;
+			baseConfigurationReference = 73D21CA5D0368AD8CC26A7AC /* Pods-testCocoaPodsLaunchTime_viaCocoaPods-testCocoaPodsLaunchTimeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -956,7 +968,7 @@
 		};
 		1A88CC51256E0A7800B80C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5FAEB1B15849C0BDEDFFA96 /* Pods-testCocoaPodsLaunchTime_noPods.debug.xcconfig */;
+			baseConfigurationReference = 7187D6C3E2A3E415FBE5186C /* Pods-testCocoaPodsLaunchTime_viaFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -976,7 +988,7 @@
 		};
 		1A88CC52256E0A7800B80C8C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 444D6ACFD10BDED2FF6E3D43 /* Pods-testCocoaPodsLaunchTime_noPods.release.xcconfig */;
+			baseConfigurationReference = BA347286BFFFA54AD5FD9C43 /* Pods-testCocoaPodsLaunchTime_viaFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1006,7 +1018,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A220C49256DF35A00594852 /* Build configuration list for PBXNativeTarget "testCocoaPodsLaunchTime" */ = {
+		1A220C49256DF35A00594852 /* Build configuration list for PBXNativeTarget "testCocoaPodsLaunchTime_viaCocoaPods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A220C4A256DF35A00594852 /* Debug */,
