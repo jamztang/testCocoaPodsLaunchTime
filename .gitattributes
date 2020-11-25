@@ -1,0 +1,10 @@
+PSPDFKit filter=lfs diff=lfs merge=lfs -text
+PSPDFKit !text !filter !merge !diff
+PSPDFKit.framework/PSPDFKit filter=lfs diff=lfs merge=lfs -text
+PSPDFKitUI.framework/PSPDFKitUI filter=lfs diff=lfs merge=lfs -text
+AppCenter.framework/AppCenter filter=lfs diff=lfs merge=lfs -text
+AppCenterCrashes.framework/AppCenterCrashes filter=lfs diff=lfs merge=lfs -text
+*.bcsymbolmap filter=lfs diff=lfs merge=lfs -text
+AppCenterAnalytics.framework/AppCenterAnalytics filter=lfs diff=lfs merge=lfs -text
+DWARF/PSPDFKit filter=lfs diff=lfs merge=lfs -text
+DWARF/PSPDFKitUI filter=lfs diff=lfs merge=lfs -text
