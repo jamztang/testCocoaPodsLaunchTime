@@ -6,14 +6,20 @@
 //
 
 import UIKit
+#if canImport(PSPDFKit)
+import PSPDFKit
+#endif
+#if canImport(AppCenter)
+import AppCenter
+#endif
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Swift.print("TTT print \(Date())")
         return true
     }
 

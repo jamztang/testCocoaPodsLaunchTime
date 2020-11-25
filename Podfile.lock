@@ -1,0 +1,32 @@
+PODS:
+  - AppCenter (4.0.0):
+    - AppCenter/Analytics (= 4.0.0)
+    - AppCenter/Crashes (= 4.0.0)
+  - AppCenter/Analytics (4.0.0):
+    - AppCenter/Core
+  - AppCenter/Core (4.0.0)
+  - AppCenter/Crashes (4.0.0):
+    - AppCenter/Core
+  - PSPDFKit (10.1.0):
+    - PSPDFKit/Core (= 10.1.0)
+  - PSPDFKit/Core (10.1.0)
+
+DEPENDENCIES:
+  - AppCenter
+  - PSPDFKit (from `https://customers.pspdfkit.com/pspdfkit-ios/10.1.0.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - AppCenter
+
+EXTERNAL SOURCES:
+  PSPDFKit:
+    :podspec: https://customers.pspdfkit.com/pspdfkit-ios/10.1.0.podspec
+
+SPEC CHECKSUMS:
+  AppCenter: 51351e0121e40ba75e28ecb7de5c2e69d480df5e
+  PSPDFKit: 563be4685e1d76f8619d290d56088b68bfc2163b
+
+PODFILE CHECKSUM: fdf41eb440ace0e41a96d046dda1bb81a1d976a3
+
+COCOAPODS: 1.10.0
