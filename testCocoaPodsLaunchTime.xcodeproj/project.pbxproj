@@ -28,10 +28,10 @@
 		1A88CC4E256E0A7800B80C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A220C2B256DF35900594852 /* Assets.xcassets */; };
 		1A88CC4F256E0A7800B80C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A220C28256DF35900594852 /* Main.storyboard */; };
 		1A88CC68256E0B1F00B80C8C /* PSPDFKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88CC67256E0B1F00B80C8C /* PSPDFKit.xcframework */; };
-		1A88CC71256E0B2200B80C8C /* AppCenter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88CC6E256E0B2000B80C8C /* AppCenter.xcframework */; };
-		1A88CC72256E0B2200B80C8C /* AppCenterAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88CC6F256E0B2000B80C8C /* AppCenterAnalytics.xcframework */; };
-		1A88CC73256E0B2200B80C8C /* AppCenterCrashes.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88CC70256E0B2200B80C8C /* AppCenterCrashes.xcframework */; };
 		1A88CCA8256E101F00B80C8C /* PSPDFKitUI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88CCA7256E101F00B80C8C /* PSPDFKitUI.xcframework */; };
+		1A88CD5E256E375F00B80C8C /* AppCenterCrashes.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88CD5B256E375F00B80C8C /* AppCenterCrashes.xcframework */; };
+		1A88CD5F256E375F00B80C8C /* AppCenterAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88CD5C256E375F00B80C8C /* AppCenterAnalytics.xcframework */; };
+		1A88CD60256E375F00B80C8C /* AppCenter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88CD5D256E375F00B80C8C /* AppCenter.xcframework */; };
 		6BF067AB6193649DDDE427DE /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		7045E069EAC17E7ACBABCEE8 /* Pods_testCocoaPodsLaunchTime_viaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C05EDDB913DFF10443448ED /* Pods_testCocoaPodsLaunchTime_viaFramework.framework */; };
 		BF18673EEB1AA870B0C11CA2 /* Pods_testCocoaPodsLaunchTime_viaCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D110C49BFA3C59619C3E2B7 /* Pods_testCocoaPodsLaunchTime_viaCocoaPods.framework */; };
@@ -78,13 +78,13 @@
 		1A88CC53256E0A7800B80C8C /* testCocoaPodsLaunchTime_viaFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCocoaPodsLaunchTime_viaFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A88CC54256E0A7800B80C8C /* testCocoaPodsLaunchTime_viaFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "testCocoaPodsLaunchTime_viaFramework-Info.plist"; path = "/Volumes/Projects/testCocoaPodsLaunchTime/testCocoaPodsLaunchTime_viaFramework-Info.plist"; sourceTree = "<absolute>"; };
 		1A88CC67256E0B1F00B80C8C /* PSPDFKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PSPDFKit.xcframework; sourceTree = "<group>"; };
-		1A88CC6E256E0B2000B80C8C /* AppCenter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AppCenter.xcframework; path = Thirdparty/AppCenter.xcframework; sourceTree = SOURCE_ROOT; };
-		1A88CC6F256E0B2000B80C8C /* AppCenterAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppCenterAnalytics.xcframework; sourceTree = "<group>"; };
-		1A88CC70256E0B2200B80C8C /* AppCenterCrashes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppCenterCrashes.xcframework; sourceTree = "<group>"; };
 		1A88CCA7256E101F00B80C8C /* PSPDFKitUI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PSPDFKitUI.xcframework; sourceTree = "<group>"; };
 		1A88CCF6256E12B500B80C8C /* testCocoaPodsLaunchTime_noPods.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testCocoaPodsLaunchTime_noPods.entitlements; sourceTree = "<group>"; };
 		1A88CCFC256E12B800B80C8C /* testCocoaPodsLaunchTime_viaCocoaPods.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testCocoaPodsLaunchTime_viaCocoaPods.entitlements; sourceTree = "<group>"; };
 		1A88CCFD256E12BA00B80C8C /* testCocoaPodsLaunchTime_viaFramework.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testCocoaPodsLaunchTime_viaFramework.entitlements; sourceTree = "<group>"; };
+		1A88CD5B256E375F00B80C8C /* AppCenterCrashes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppCenterCrashes.xcframework; sourceTree = "<group>"; };
+		1A88CD5C256E375F00B80C8C /* AppCenterAnalytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppCenterAnalytics.xcframework; sourceTree = "<group>"; };
+		1A88CD5D256E375F00B80C8C /* AppCenter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppCenter.xcframework; sourceTree = "<group>"; };
 		444D6ACFD10BDED2FF6E3D43 /* Pods-testCocoaPodsLaunchTime_noPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime_noPods.release.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime_noPods/Pods-testCocoaPodsLaunchTime_noPods.release.xcconfig"; sourceTree = "<group>"; };
 		5C05EDDB913DFF10443448ED /* Pods_testCocoaPodsLaunchTime_viaFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testCocoaPodsLaunchTime_viaFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AA30461AF438E24E48DF8B /* Pods-testCocoaPodsLaunchTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testCocoaPodsLaunchTime.debug.xcconfig"; path = "Target Support Files/Pods-testCocoaPodsLaunchTime/Pods-testCocoaPodsLaunchTime.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,9 +145,9 @@
 			files = (
 				1A88CCA8256E101F00B80C8C /* PSPDFKitUI.xcframework in Frameworks */,
 				1A88CC68256E0B1F00B80C8C /* PSPDFKit.xcframework in Frameworks */,
-				1A88CC71256E0B2200B80C8C /* AppCenter.xcframework in Frameworks */,
-				1A88CC72256E0B2200B80C8C /* AppCenterAnalytics.xcframework in Frameworks */,
-				1A88CC73256E0B2200B80C8C /* AppCenterCrashes.xcframework in Frameworks */,
+				1A88CD5F256E375F00B80C8C /* AppCenterAnalytics.xcframework in Frameworks */,
+				1A88CD5E256E375F00B80C8C /* AppCenterCrashes.xcframework in Frameworks */,
+				1A88CD60256E375F00B80C8C /* AppCenter.xcframework in Frameworks */,
 				7045E069EAC17E7ACBABCEE8 /* Pods_testCocoaPodsLaunchTime_viaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +220,7 @@
 		1A88CC64256E0AD700B80C8C /* Thirdparty */ = {
 			isa = PBXGroup;
 			children = (
-				1A88CC66256E0B0B00B80C8C /* AppCenter */,
+				1A88CD5A256E375F00B80C8C /* AppCenter */,
 				1A88CC65256E0AE800B80C8C /* PSPDFKit */,
 			);
 			path = Thirdparty;
@@ -235,15 +235,14 @@
 			path = PSPDFKit;
 			sourceTree = "<group>";
 		};
-		1A88CC66256E0B0B00B80C8C /* AppCenter */ = {
+		1A88CD5A256E375F00B80C8C /* AppCenter */ = {
 			isa = PBXGroup;
 			children = (
-				1A88CC6E256E0B2000B80C8C /* AppCenter.xcframework */,
-				1A88CC6F256E0B2000B80C8C /* AppCenterAnalytics.xcframework */,
-				1A88CC70256E0B2200B80C8C /* AppCenterCrashes.xcframework */,
+				1A88CD5B256E375F00B80C8C /* AppCenterCrashes.xcframework */,
+				1A88CD5C256E375F00B80C8C /* AppCenterAnalytics.xcframework */,
+				1A88CD5D256E375F00B80C8C /* AppCenter.xcframework */,
 			);
-			name = AppCenter;
-			path = "New Group";
+			path = AppCenter;
 			sourceTree = "<group>";
 		};
 		8F24CE723D51EB4C358D30F8 /* Pods */ = {
