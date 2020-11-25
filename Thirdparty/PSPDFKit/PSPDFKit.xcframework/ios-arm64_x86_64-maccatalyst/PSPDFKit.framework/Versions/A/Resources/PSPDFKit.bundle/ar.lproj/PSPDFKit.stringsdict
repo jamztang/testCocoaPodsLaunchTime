@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%tu Annotation(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@tu_annotations@</string>
+		<key>tu_annotations</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>few</key>
+			<string>%tu شروح توضيحية</string>
+			<key>many</key>
+			<string>%tu شرح توضيحي</string>
+			<key>one</key>
+			<string>شرح توضيحي واحد</string>
+			<key>other</key>
+			<string>%tu شرح توضيحي</string>
+			<key>two</key>
+			<string>شرحان توضيحيان</string>
+			<key>zero</key>
+			<string>لا توجد شروح توضيحية</string>
+		</dict>
+	</dict>
+	<key>%tu Point(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@tu_points@</string>
+		<key>tu_points</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>few</key>
+			<string>%tu نقاط</string>
+			<key>many</key>
+			<string>%tu نقطة</string>
+			<key>one</key>
+			<string>نقطة واحدة</string>
+			<key>other</key>
+			<string>%tu نقطة</string>
+			<key>two</key>
+			<string>نقطتان</string>
+			<key>zero</key>
+			<string>%tu نقطة</string>
+		</dict>
+	</dict>
+	<key>%tu document(s) indexed.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@tu_documents_indexed@</string>
+		<key>tu_documents_indexed</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>few</key>
+			<string>تمت فهرسة %tu ملفات.</string>
+			<key>many</key>
+			<string>تمت فهرسة %tu ملف.</string>
+			<key>one</key>
+			<string> تمت فهرسة ملف واحد</string>
+			<key>other</key>
+			<string>تمت فهرسة %tu ملف</string>
+			<key>two</key>
+			<string>تمت فهرسة ملفين</string>
+			<key>zero</key>
+			<string>لم تتم فهرسة ملفات</string>
+		</dict>
+	</dict>
+	<key>%tu match(es) found</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@tu_matches_found@</string>
+		<key>tu_matches_found</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>few</key>
+			<string>تم العثور على %tu نتائج</string>
+			<key>many</key>
+			<string>تم العثور على %tu نتيجة</string>
+			<key>one</key>
+			<string>تم العثور على نتيجة واحدة متوافقة</string>
+			<key>other</key>
+			<string>تم العثور على %tu نتيجة متوافقة</string>
+			<key>two</key>
+			<string>تم العثور على نتيجتين</string>
+			<key>zero</key>
+			<string>لم يتم العثور على نتائج متوافقة</string>
+		</dict>
+	</dict>
+	<key>%tu more comment(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@tu_more_comments@</string>
+		<key>tu_more_comments</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>few</key>
+			<string>%tu تعليق آخر</string>
+			<key>many</key>
+			<string>%tu تعليق آخر</string>
+			<key>one</key>
+			<string>%tu تعليق آخر</string>
+			<key>other</key>
+			<string>%tu تعليق آخر</string>
+			<key>two</key>
+			<string>%tu تعليق آخر</string>
+			<key>zero</key>
+			<string>%tu تعليق آخر</string>
+		</dict>
+	</dict>
+	<key>%tu result(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@tu_results@</string>
+		<key>tu_results</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>few</key>
+			<string>%tu نتائج</string>
+			<key>many</key>
+			<string>%tu نتيجة</string>
+			<key>one</key>
+			<string>نتيجة واحدة</string>
+			<key>other</key>
+			<string>%tu نتيجة</string>
+			<key>two</key>
+			<string>نتيجتان</string>
+			<key>zero</key>
+			<string>لا توجد نتائج</string>
+		</dict>
+	</dict>
+	<key>All (%tu Page(s))</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>الكل (%#@pages@)</string>
+        <key>pages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>few</key>
+			<string>الكل (%tu صفحات)</string>
+			<key>many</key>
+			<string>%tu صفحة</string>
+			<key>one</key>
+			<string>صفحة واحدة</string>
+			<key>other</key>
+			<string>%tu صفحات</string>
+			<key>two</key>
+			<string>الكل (صفحتان)</string>
+			<key>zero</key>
+			<string>الكل (%tu صفحة)</string>
+		</dict>
+	</dict>
+	<key>Searching %tu page(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>البحث في %#@pages@</string>
+        <key>pages</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>few</key>
+			<string>البحث في %tu صفحات</string>
+			<key>many</key>
+			<string>%tu صفحة</string>
+			<key>one</key>
+			<string>صفحة واحدة</string>
+			<key>other</key>
+			<string>%tu صفحة</string>
+			<key>two</key>
+			<string>البحث في صفحتين</string>
+			<key>zero</key>
+			<string>البحث في %tu صفحة</string>
+		</dict>
+	</dict>
+	<key>%tu Line(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_lines@</string>
+        <key>tu_lines</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+			<key>zero</key>
+            <string>صفر سطر</string>
+			<key>one</key>
+            <string>سطر واحد</string>
+			<key>two</key>
+            <string>سطران</string>
+			<key>few</key>
+            <string>%tu أسطر</string>
+            <key>many</key>
+            <string>%tu سطرًا</string>
+			<key>other</key>
+            <string>%tu سطر</string>
+        </dict>
+	</dict>
+	<key>Delete %tu Comment(s)</key>
+    <dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>حذف %#@comments@</string>
+		<key>comments</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>zero</key>
+			<string>لا تعليق</string>
+			<key>one</key>
+			<string>%tu تعليق</string>
+			<key>few</key>
+			<string>%tu تعليقات</string>
+			<key>many</key>
+			<string>%tu تعليقًا</string>
+			<key>other</key>
+			<string>%tu تعليق</string>
+		</dict>
+	</dict>
+	<key>%tu comment(s)</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@tu_comments@</string>
+			<key>tu_comments</key>
+			<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>zero</key>
+			<string>لا تعليق</string>
+			<key>one</key>
+			<string>%tu تعليق</string>
+			<key>few</key>
+			<string>%tu تعليقات</string>
+			<key>many</key>
+			<string>%tu تعليقًا</string>
+			<key>other</key>
+			<string>%tu تعليق</string>
+	 </dict>
+	</dict>
+	<key>All (%tu Page(s), %tu Document(s))</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>الكل (%#@pages@, %#@documents@)</string>
+        <key>pages</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>صفحة واحدة</string>
+            <key>two</key>	
+            <string>صفحتان</string>
+            <key>few</key>
+            <string>%tu صفحات</string>
+            <key>many</key>
+            <string>%tu صفحة</string>
+            <key>other</key>
+            <string>%tu صفحة</string>
+        </dict>
+        <key>documents</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>ملف واحد</string>
+            <key>two</key>	
+            <string>%tu ملفًا</string>
+            <key>few</key>
+            <string>%tu ملفات</string>
+            <key>many</key>
+            <string>%tu ملفًا</string>
+            <key>other</key>
+            <string>%tu ملف</string>
+        </dict>
+    </dict>
+	<key>DocumentEditor_NumPagesSelected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@tu_pages_selected@</string>
+		<key>tu_pages_selected</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>few</key>
+			<string>تم تحديد %tu صفحات</string>
+			<key>many</key>
+			<string>تم تحديد %tu صفحة</string>
+			<key>one</key>
+			<string>تم تحديد صفحة واحدة</string>
+			<key>other</key>
+			<string>تم تحديد %tu صفحة</string>
+			<key>two</key>
+			<string>تم تحديد %tu صفحة</string>
+			<key>zero</key>
+			<string>تم تحديد صفر صفحة</string>
+		</dict>
+    </dict>
+	<key>commentDialogClosed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>حوار التعليقات. فتح التعليقات. المؤلف %@. %#@tu_replies@</string>
+		<key>tu_replies</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>one</key>
+			<string>%tu رد</string>
+			<key>other</key>
+			<string>%tu ردود</string>
+			<key>two</key>
+			<string>%tu ردود</string>
+			<key>few</key>
+			<string>%tu ردود</string>
+			<key>many</key>
+			<string>%tu ردود</string>
+		</dict>
+	</dict>
+	<key>%tu Side(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_sides@</string>
+        <key>tu_sides</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu شريحة</string>
+            <key>other</key>
+            <string>%tu شرائح</string>
+            <key>two</key>
+            <string>%tu شرائح</string>
+            <key>few</key>
+            <string>%tu شرائح</string>
+            <key>many</key>
+            <string>%tu شرائح</string>
+        </dict>
+    </dict>
+    <key>%tu Segment(s)</key>
+    <dict>
+        <key>NSStringLocalizedFormatKey</key>
+        <string>%#@tu_segments@</string>
+        <key>tu_segments</key>
+        <dict>
+            <key>NSStringFormatSpecTypeKey</key>
+            <string>NSStringPluralRuleType</string>
+            <key>NSStringFormatValueTypeKey</key>
+            <string>tu</string>
+            <key>one</key>
+            <string>%tu مقطع</string>
+            <key>other</key>
+            <string>%tu مقاطع</string>
+            <key>two</key>
+            <string>%tu مقاطع</string>
+            <key>few</key>
+            <string>%tu مقاطع</string>
+            <key>many</key>
+            <string>%tu مقاطع</string>
+        </dict>
+    </dict>
+</dict>
+</plist>
+

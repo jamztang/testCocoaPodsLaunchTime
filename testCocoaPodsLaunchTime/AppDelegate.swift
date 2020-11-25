@@ -6,6 +6,7 @@
 //
 
 import UIKit
+
 #if canImport(PSPDFKit)
 import PSPDFKit
 #endif
@@ -19,7 +20,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        Swift.print("TTT print \(Date())")
+
+        var frameworks: [String] = []
+        #if canImport(PSPDFKit)
+        frameworks.append("PSPDFKit")
+        #endif
+
+        #if canImport(AppCenter)
+        frameworks.append("AppCenter")
+        #endif
+
+        Swift.print("TTT print \(Date()) loaded frameworks: \(frameworks)")
         return true
     }
 

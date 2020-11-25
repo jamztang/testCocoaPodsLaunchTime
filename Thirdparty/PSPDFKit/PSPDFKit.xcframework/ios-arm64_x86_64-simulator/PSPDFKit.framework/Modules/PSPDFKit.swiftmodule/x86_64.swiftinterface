@@ -1,0 +1,345 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PSPDFKit
+import Combine
+import CoreGraphics
+import Darwin
+import Foundation
+import MachO
+@_exported import PSPDFKit
+import Swift
+import UIKit
+import WebKit
+import MachO.dyld
+extension StampAnnotation {
+  public func loadImage(with transform: inout CoreGraphics.CGAffineTransform) throws -> UIKit.UIImage
+}
+extension CGSize {
+  public static func * (lhs: CoreGraphics.CGSize, rhs: CoreGraphics.CGFloat) -> CoreGraphics.CGSize
+  public static func *= (lhs: inout CoreGraphics.CGSize, rhs: CoreGraphics.CGFloat)
+  public static func / (lhs: CoreGraphics.CGSize, rhs: CoreGraphics.CGFloat) -> CoreGraphics.CGSize
+  public static func /= (lhs: inout CoreGraphics.CGSize, rhs: CoreGraphics.CGFloat)
+}
+extension NoteAnnotation {
+  public var authorState: PSPDFKit.Annotation.State {
+    get
+    set
+  }
+}
+extension AbstractLineAnnotation {
+  convenience public init(points: [CoreGraphics.CGPoint])
+}
+public typealias PDFRenderDrawBlock = @convention(block) (CoreGraphics.CGContext, PSPDFKit.PageIndex, CoreGraphics.CGRect, PSPDFKit.RenderOptions?) -> Swift.Void
+public typealias RenderDrawHandler = PSPDFKit.PDFRenderDrawBlock
+extension Dictionary where Key == Swift.AnyHashable, Value == Any {
+  public func valueForKey(_ key: Swift.String) -> Any?
+}
+extension Annotation {
+  public var additionalActions: [PSPDFKit.Annotation.TriggerEvent : PSPDFKit.Action]? {
+    get
+    set
+  }
+  public var dashArray: [CoreGraphics.CGFloat]? {
+    get
+    set
+  }
+  public var rects: [CoreGraphics.CGRect]? {
+    get
+    set
+  }
+  public var points: [CoreGraphics.CGPoint]? {
+    get
+    set
+  }
+}
+extension Annotation.Kind : Swift.CustomStringConvertible, Swift.ExpressibleByStringLiteral, Swift.Hashable {
+  public init(stringLiteral value: Swift.StringLiteralType)
+  public var description: Swift.String {
+    get
+  }
+  public init(tool: PSPDFKit.Annotation.Tool)
+  public typealias StringLiteralType = Swift.StringLiteralType
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.StringLiteralType
+  public typealias UnicodeScalarLiteralType = Swift.StringLiteralType
+}
+extension Annotation.Tool {
+  public init?(kind: PSPDFKit.Annotation.Kind)
+  public func localizedName(with variant: PSPDFKit.Annotation.Variant) -> Swift.String
+  public var localizedName: Swift.String {
+    get
+  }
+}
+extension Annotation.Tool : Swift.CustomStringConvertible, Swift.ExpressibleByStringLiteral {
+  public var description: Swift.String {
+    get
+  }
+  public init(stringLiteral value: Swift.StringLiteralType)
+  public typealias StringLiteralType = Swift.StringLiteralType
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.StringLiteralType
+  public typealias UnicodeScalarLiteralType = Swift.StringLiteralType
+}
+extension Annotation.ToolVariantID : Swift.CustomStringConvertible {
+  public init(tool: PSPDFKit.Annotation.Tool, variant: PSPDFKit.Annotation.Variant? = nil)
+  public var description: Swift.String {
+    get
+  }
+  public var tool: PSPDFKit.Annotation.Tool {
+    get
+  }
+  public var variant: PSPDFKit.Annotation.Variant? {
+    get
+  }
+}
+extension Annotation {
+  public enum State {
+    case unspecified
+    case marking(PSPDFKit.Annotation.State.MarkedModel)
+    case reviewing(PSPDFKit.Annotation.State.ReviewModel)
+    public enum MarkedModel {
+      case unmarked
+      case marked
+      public static func == (a: PSPDFKit.Annotation.State.MarkedModel, b: PSPDFKit.Annotation.State.MarkedModel) -> Swift.Bool
+      public var hashValue: Swift.Int {
+        get
+      }
+      public func hash(into hasher: inout Swift.Hasher)
+    }
+    public enum ReviewModel {
+      case none
+      case accepted
+      case rejected
+      case cancelled
+      case completed
+      public static func == (a: PSPDFKit.Annotation.State.ReviewModel, b: PSPDFKit.Annotation.State.ReviewModel) -> Swift.Bool
+      public var hashValue: Swift.Int {
+        get
+      }
+      public func hash(into hasher: inout Swift.Hasher)
+    }
+  }
+}
+extension Annotation : Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public typealias ID = Swift.String
+}
+extension AnnotationManager {
+  public func updateAnnotationsOnPage(at pageIndex: PSPDFKit.PageIndex, updates: (PSPDFKit.AnnotationUpdate) throws -> Swift.Void) throws
+}
+@available(*, deprecated, renamed: "PDFFileAnnotationProvider", message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+public typealias PDFFileAnnotationPovider = PSPDFKit.PDFFileAnnotationProvider
+@available(*, deprecated, renamed: "PSPDFKitError", message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+public typealias PSPDFError = PSPDFKit.PSPDFKitError
+extension Cryptor {
+  @available(*, deprecated, message: "`Cryptor.ErrorCode` has been renamed to `CryptorError` in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+  public typealias ErrorCode = PSPDFKit.CryptorError
+}
+@available(*, deprecated, renamed: "AESCryptoInputStreamError", message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+public typealias AESCryptoInputStreamErrorCode = PSPDFKit.AESCryptoInputStreamError
+@available(*, deprecated, renamed: "AESCryptoOutputStreamError", message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+public typealias AESCryptoOutputStreamErrorCode = PSPDFKit.AESCryptoOutputStreamError
+@available(*, deprecated, renamed: "PDFLibrary.Option.maximumSearchResultsTotal", message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+public let PSPDFLibraryMaximumSearchResultsTotalKey: PSPDFKit.PDFLibrary.Option
+@available(*, deprecated, renamed: "PDFLibrary.Option.maximumSearchResultsPerDocument", message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+public let PSPDFLibraryMaximumSearchResultsPerDocumentKey: PSPDFKit.PDFLibrary.Option
+@available(*, deprecated, renamed: "PDFLibrary.Option.maximumPreviewResultsTotal", message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+public let PSPDFLibraryMaximumPreviewResultsTotalKey: PSPDFKit.PDFLibrary.Option
+@available(*, deprecated, renamed: "PDFLibrary.Option.maximumPreviewResultsPerDocument", message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+public let PSPDFLibraryMaximumPreviewResultsPerDocumentKey: PSPDFKit.PDFLibrary.Option
+@available(*, deprecated, renamed: "PDFLibrary.Option.matchExactWordsOnly", message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+public let PSPDFLibraryMatchExactWordsOnlyKey: PSPDFKit.PDFLibrary.Option
+@available(*, deprecated, renamed: "PDFLibrary.Option.matchExactPhrasesOnly", message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+public let PSPDFLibraryMatchExactPhrasesOnlyKey: PSPDFKit.PDFLibrary.Option
+@available(*, deprecated, renamed: "PDFLibrary.Option.excludeAnnotations", message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+public let PSPDFLibraryExcludeAnnotationsKey: PSPDFKit.PDFLibrary.Option
+@available(*, deprecated, renamed: "PDFLibrary.Option.excludeDocumentText", message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+public let PSPDFLibraryExcludeDocumentTextKey: PSPDFKit.PDFLibrary.Option
+@available(*, deprecated, renamed: "PDFLibrary.Option.previewRange", message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS.")
+public let PSPDFLibraryPreviewRangeKey: PSPDFKit.PDFLibrary.Option
+@available(*, deprecated, message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS. Use `[DrawingPoint]` instead.")
+public typealias PDFLine = [PSPDFKit.DrawingPoint]
+@available(*, deprecated, message: "Deprecated in PSPDFKit 9.4 for iOS and 4.4 for macOS. Use `[CGPoint]` instead.")
+public typealias ViewLine = [CoreGraphics.CGPoint]
+extension PDFSignatureInfo {
+  public var byteRange: [Swift.Range<Swift.UInt64>]? {
+    get
+  }
+}
+@inlinable internal func with<T>(_ subject: T, _ transform: (inout T) throws -> Swift.Void) rethrows -> T {
+    var subject = subject
+    try transform(&subject)
+    return subject
+}
+extension SoundAnnotation {
+  public enum RecorderOption : Swift.Hashable {
+    case encoding(PSPDFKit.SoundAnnotation.Encoding)
+    case channels(Swift.UInt32)
+    case sampleRate(hertz: PSPDFKit.SoundAnnotation.RecorderOption.SampleRate)
+    case bitsPerSample(PSPDFKit.SoundAnnotation.RecorderOption.Depth)
+    public enum SampleRate : Swift.UInt {
+      case _8k
+      case _11k
+      case _22k
+      case _44k
+      public typealias RawValue = Swift.UInt
+      public init?(rawValue: Swift.UInt)
+      public var rawValue: Swift.UInt {
+        get
+      }
+    }
+    public enum Depth : Swift.UInt8 {
+      case _8
+      case _16
+      case _24
+      case _32
+      public typealias RawValue = Swift.UInt8
+      public init?(rawValue: Swift.UInt8)
+      public var rawValue: Swift.UInt8 {
+        get
+      }
+    }
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: PSPDFKit.SoundAnnotation.RecorderOption, b: PSPDFKit.SoundAnnotation.RecorderOption) -> Swift.Bool
+  }
+  convenience public init?(recorderOptions: Swift.Set<PSPDFKit.SoundAnnotation.RecorderOption> = [])
+}
+extension SoundAnnotation.RecorderOption : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension Document {
+  convenience public init(url: Foundation.URL, loadCheckpointIfAvailable loadCheckpoint: Swift.Bool = false)
+}
+extension Document {
+  public func annotations(at: PSPDFKit.PageIndex) -> [PSPDFKit.Annotation]
+  public func annotations<T>(at: PSPDFKit.PageIndex, type: T.Type) -> [T] where T : PSPDFKit.Annotation
+  public var allAnnotationsPerPage: [PSPDFKit.PageIndex : [PSPDFKit.Annotation]] {
+    get
+  }
+}
+extension Document {
+  public enum SaveOption : Swift.Hashable {
+    case security(PSPDFKit.Document.SecurityOptions)
+    case strategy(PSPDFKit.Document.SaveStrategy)
+    case forceSaving
+    case applyRedactions
+    public var hashValue: Swift.Int {
+      get
+    }
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: PSPDFKit.Document.SaveOption, b: PSPDFKit.Document.SaveOption) -> Swift.Bool
+  }
+  public func save(options: Swift.Set<PSPDFKit.Document.SaveOption> = []) throws
+  public func save(options: Swift.Set<PSPDFKit.Document.SaveOption> = [], completion: @escaping (Swift.Result<[PSPDFKit.Annotation], Swift.Error>) -> Swift.Void)
+}
+@available(OSX 10.15, iOS 13.0, *)
+extension Document : Foundation.ObservableObject {
+  public var objectWillChange: Combine.ObservableObjectPublisher {
+    get
+  }
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
+@available(OSX 10.15, iOS 13.0, *)
+extension Document {
+  public var savePublisher: Combine.AnyPublisher<Swift.Result<Swift.Void, Swift.Error>, Swift.Never> {
+    get
+  }
+  public enum AnnotationChangeEvent {
+    case added(annotations: [PSPDFKit.Annotation])
+    case removed(annotations: [PSPDFKit.Annotation])
+    case changed(annotations: [PSPDFKit.Annotation])
+  }
+  public var annotationChangePublisher: Combine.AnyPublisher<PSPDFKit.Document.AnnotationChangeEvent, Swift.Never> {
+    get
+  }
+}
+extension AbstractShapeAnnotation {
+  public var pointSequences: [[PSPDFKit.DrawingPoint]] {
+    get
+    set
+  }
+}
+extension SDK {
+  public func setLogHandler(handler: @escaping (PSPDFKit.LogLevelMask, Swift.String, @escaping () -> Swift.String, Swift.String, Swift.String, Swift.Int) -> Swift.Void)
+}
+extension NSValue {
+  convenience public init(point: CoreGraphics.CGPoint)
+  convenience public init(rect: CoreGraphics.CGRect)
+  public var rectValue: CoreGraphics.CGRect {
+    get
+  }
+  public var pointValue: CoreGraphics.CGPoint {
+    get
+  }
+}
+extension InkAnnotation {
+  convenience public init(lines: [[PSPDFKit.DrawingPoint]])
+  public var lines: [[PSPDFKit.DrawingPoint]]? {
+    get
+    set
+  }
+}
+public func ConvertToPDFLines(viewLines: [[CoreGraphics.CGPoint]], pageInfo: PSPDFKit.PDFPageInfo, viewBounds: CoreGraphics.CGRect) -> [[PSPDFKit.DrawingPoint]]
+public func ConvertToPDFLine(viewLine: [CoreGraphics.CGPoint], pageInfo: PSPDFKit.PDFPageInfo, viewBounds: CoreGraphics.CGRect) -> [PSPDFKit.DrawingPoint]
+extension DrawingPoint : Swift.Equatable {
+  public static func == (lhs: PSPDFKit.DrawingPoint, rhs: PSPDFKit.DrawingPoint) -> Swift.Bool
+}
+extension String {
+  public init(_ kind: PSPDFKit.Annotation.Kind)
+  public init(_ value: PSPDFKit.Annotation.Tool)
+}
+extension PolygonAnnotation {
+  convenience public init(points: [CoreGraphics.CGPoint], intent: PSPDFKit.PolygonAnnotation.Intent = .none)
+}
+extension OutlineElement : Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public typealias ID = Swift.String
+}
+extension Result : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension Rotation : Swift.ExpressibleByIntegerLiteral {
+  public init(integerLiteral: Swift.IntegerLiteralType)
+  public typealias IntegerLiteralType = Swift.IntegerLiteralType
+}
+extension TextMarkupAnnotation {
+  public class func textOverlayAnnotation(withRects rects: [CoreGraphics.CGRect], boundingBox: CoreGraphics.CGRect, pageIndex: Swift.Int) -> Self?
+}
+extension AbstractFormAction {
+  public var fieldIdentifiers: [PSPDFKit.AbstractFormAction.FieldIdentifier]? {
+    get
+    set
+  }
+  public enum FieldIdentifier {
+    case objectNumber(Swift.Int)
+    case fullyQualifiedName(Swift.String)
+  }
+}
+extension AbstractFormAction.FieldIdentifier : Swift.ExpressibleByIntegerLiteral, Swift.ExpressibleByStringLiteral, Swift.Equatable {
+  public typealias IntegerLiteralType = Swift.Int
+  public init(integerLiteral value: Swift.Int)
+  public init(stringLiteral value: Swift.StringLiteralType)
+  public typealias StringLiteralType = Swift.StringLiteralType
+  public static func == (a: PSPDFKit.AbstractFormAction.FieldIdentifier, b: PSPDFKit.AbstractFormAction.FieldIdentifier) -> Swift.Bool
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.StringLiteralType
+  public typealias UnicodeScalarLiteralType = Swift.StringLiteralType
+}
+extension PSPDFKit.Annotation.State.MarkedModel : Swift.Equatable {}
+extension PSPDFKit.Annotation.State.MarkedModel : Swift.Hashable {}
+extension PSPDFKit.Annotation.State.ReviewModel : Swift.Equatable {}
+extension PSPDFKit.Annotation.State.ReviewModel : Swift.Hashable {}
+extension PSPDFKit.SoundAnnotation.RecorderOption.SampleRate : Swift.Equatable {}
+extension PSPDFKit.SoundAnnotation.RecorderOption.SampleRate : Swift.Hashable {}
+extension PSPDFKit.SoundAnnotation.RecorderOption.SampleRate : Swift.RawRepresentable {}
+extension PSPDFKit.SoundAnnotation.RecorderOption.Depth : Swift.Equatable {}
+extension PSPDFKit.SoundAnnotation.RecorderOption.Depth : Swift.Hashable {}
+extension PSPDFKit.SoundAnnotation.RecorderOption.Depth : Swift.RawRepresentable {}
