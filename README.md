@@ -3,6 +3,8 @@ Testing App Launch Time with or without CocoaPods
 
 tldr; Basically there's no affect on launch time when using CocoaPods or intergrate manually using Frameworks
 
+Gotcha: AppCenter 4.0.0 don't work on Mac Catalyst, .podspec was not specifying .xcframework
+
 No Pods at all:
 ```
 Total pre-main time: 134.65 milliseconds (100.0%)
